@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BooksController {
 
     @GetMapping("/book")
-    public String getBook(){klsdmflkasmdf
+    public String getBook(){
         System.out.println();
         return "Kolobok";
     }
