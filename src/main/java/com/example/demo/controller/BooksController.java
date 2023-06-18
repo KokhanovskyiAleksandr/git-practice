@@ -8,6 +8,7 @@ public class BooksController {
 
     @GetMapping("/book")
     public String getBook(){
+        System.out.println();
         return "Kolobok";
     }
 }
